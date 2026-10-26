@@ -1,0 +1,24 @@
+name: gfms_mobile
+description: Flutter mobile application for Garment Factory Management System.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  shared_preferences: ^2.5.3
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
